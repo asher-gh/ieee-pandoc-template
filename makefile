@@ -4,6 +4,7 @@ FILES = paper.md \
 OUTPUT = build
 
 FLAGS = --bibliography=bibliography.bib \
+		--citeproc \
 		--csl=bibliography.csl \
 		-s \
 		-f markdown
